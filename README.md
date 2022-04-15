@@ -1,2 +1,2 @@
-# Svelte-tailwind-password-strength-bar
+# Svelte-password-strength-bar
 documention comming soon...
