@@ -10,9 +10,12 @@
 
   let current_score = 0;
 
-  onMount(async () => {
+  const checkPassStrength = (password) => {
     current_score = zxcvbn(password).score;
-  });
+  }
+
+  $: checkPassStrength(password)
+  
 
   const scoreStyle = (/** @type {any} */ score) => {
     switch (score) {
@@ -61,7 +64,7 @@
   };
 </script>
 
-<div class="m-2">
+<div class="my-2">
   <ul class="grid grid-cols-12 gap-2">
     <li class={`col-span-3 h-1 rounded ${returnBarStyle(1, current_score)}`} />
     <li class={`col-span-3 h-1 rounded ${returnBarStyle(2, current_score)}`} />
