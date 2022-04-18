@@ -24,7 +24,7 @@
         score_text_color = "";
         return "";
       case 1:
-        score_text = "Too Short";
+        score_text = "Too Weak";
         score_text_color = "text-red-600";
         return "bg-red-600";
       case 2:

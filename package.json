@@ -1,6 +1,6 @@
 {
   "name": "svelte-password-strength-bar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -12,8 +12,9 @@
   },
   "exports" : {
     "." : "./PasswordStrength.svelte",
-    "./app.css" : "./app.css"
-  },
+    "./app.css" : "./app.css",
+    "./static/demo.gif" : "./static/demo.gif"
+  }, 
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
