@@ -1,6 +1,5 @@
 <script>
   import "./app.css";
-  import { onMount } from "svelte";
   import zxcvbn from "zxcvbn";
   export let password = "";
   let score_text = "";
