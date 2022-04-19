@@ -1,7 +1,7 @@
 # Svelte-password-strength-bar
 A simple **Svelte** component to show password strength bar
 
-![Gif](https://raw.githubusercontent.com/kawser43/svelte-password-strength-bar/main/static/preview.gif)
+![Gif](https://raw.githubusercontent.com/kawser43/svelte-password-strength-bar/main/static/demo.gif)
 
 ## Install
 ```
