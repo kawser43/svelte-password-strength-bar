@@ -1,4 +1,4 @@
-# Svelte-password-strength-bar
+# svelte-password-strength-bar
 A simple **Svelte** component to show password strength bar
 
 ![Gif](https://raw.githubusercontent.com/kawser43/svelte-password-strength-bar/main/static/demo.gif)
@@ -11,7 +11,7 @@ $ npm install svelte-password-strength-bar
 ## Usage
 ```
 <script>
-import PasswordStrength from "$lib/PasswordStrength.svelte";
+import PasswordStrength from "svelte-password-strength-bar";
 let password = ""
 </script>
 
